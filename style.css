@@ -1,17 +1,44 @@
-<!doctype html>
-<html>
-	<head>
-		<title> Roseville Runners </title>
-		<link href="style.css" rel="stylesheet" type="text/css"/>
-	</head>
-
-	<body>
-		<h1>
-			This is page 2
-		</h1>
-		<a href="index.html">Home</a>
-	</body>
+body{
+	background:#555;
+	font-family: arial;
+	margin: 10px;
 
 
+}
+h1{
+	color: #eda232;
+	padding: 15px;
+	background: gray;
+	margin: 10px 50% 10px 10px;
+	border-radius: 5px;
+}
 
-</html>
+p {
+	padding: 15px;
+	background: #777;
+	margin: 5px;
+	border-radius: 5px;
+
+}
+p a {
+	color: #eda232;;
+}
+img {
+	background: gray;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.row {
+	clear:both;
+}
+
+.col {
+	float: left;
+
+	background: #666;
+	margin: 1%;
+	width: 31%;
+	border-radius: 5px;
+
+}

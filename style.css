@@ -1,44 +1,75 @@
 body{
-	background:#555;
-	font-family: arial;
-	margin: 10px;
+	background: linear-gradient(grey, black);
+	background-repeat: no-repeat;
+	font-family: Arial;
+	margin: 0px;
+	padding: 0px;
+	background-color: black;
 
 
 }
-h1{
-	color: #eda232;
-	padding: 15px;
-	background: gray;
-	margin: 10px 50% 10px 10px;
-	border-radius: 5px;
+h1 {
+	margin: 0px;
+	padding: 5px;
+	color: white;
+	background: #333;
 }
 
-p {
-	padding: 15px;
-	background: #777;
-	margin: 5px;
-	border-radius: 5px;
+
+.topnav {
+  background-color: black;
+  overflow: hidden;
+}
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 
 }
-p a {
-	color: #eda232;;
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: white;
+  color: black;
 }
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: orange;
+  color: white;
+}
+
+section {
+	background: #333;
+	margin: 0px;
+	padding: 5px 10px 10px 10px;
+	color: #dbdbdb;
+}
+footer {
+	background: black;
+	color:  orange;
+	margin: 0px;
+	padding: 5px 10px 10px 10px;
+
+}
+
+a {
+	color: orange;
+}
+
 img {
-	background: gray;
-	padding: 20px;
-	border-radius: 5px;
+	margin: 0px;
+	padding: 0px;
+	border: solid;
+	border-color: black;
 }
-
-.row {
-	clear:both;
-}
-
-.col {
-	float: left;
-
-	background: #666;
-	margin: 1%;
-	width: 31%;
-	border-radius: 5px;
-
+button {
+	background: red;
+	border-radius: 10px;
+	
 }
